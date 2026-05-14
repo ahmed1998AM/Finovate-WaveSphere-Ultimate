@@ -1,0 +1,6 @@
+2026-05-14 09:57:24,069 - __main__ - WARNING - بعض المكتبات غير مثبتة: ['pyside6']
+2026-05-14 09:57:24,070 - __main__ - INFO - قم بتثبيتها باستخدام: pip install pyside6
+2026-05-14 09:57:24,070 - __main__ - INFO - جاري المتابعة مع المكتبات المتاحة...
+2026-05-14 09:57:46,797 - radio_sources.mytuner - ERROR - MyTuner top stations error: 200, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://ww9.mytunerradio.com/'
+2026-05-14 09:57:46,798 - ai_system.audio_enhancement - INFO - تم تحميل نموذج تحسين الصوت
+2026-05-14 09:57:46,798 - ai_system.metadata_translator - INFO - تم تعيين اللغة إلى ar
