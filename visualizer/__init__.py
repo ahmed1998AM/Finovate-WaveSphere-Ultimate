@@ -6,9 +6,7 @@ Finovate WaveSphere Ultimate - Visualizer Module
 العلامة التجارية: Finovate – AHMED EG
 """
 
-from .spectrum import SpectrumVisualizer
-from .waveform import WaveformVisualizer
-from .particles import ParticleVisualizer
+from .visualizer_engine import AudioVisualizer, VisualizerRenderer, VisualizerMode, VisualizerConfig
 
 __version__ = "1.0.0"
 __author__ = "Ahmed Mostafa Ibrahim"
