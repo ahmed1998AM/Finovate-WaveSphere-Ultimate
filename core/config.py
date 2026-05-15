@@ -10,6 +10,26 @@ from typing import Any, Dict, Optional
 from datetime import datetime
 
 
+class ConfigManager:
+    """Application configuration manager (alias for Config)"""
+    
+    def __init__(self, config_file: Optional[str] = None):
+        """Initialize the config manager"""
+        self.config = Config(config_file)
+    
+    def get(self, key: str, default: Any = None) -> Any:
+        return self.config.get(key, default)
+    
+    def set(self, key: str, value: Any) -> bool:
+        return self.config.set(key, value)
+    
+    def load(self) -> None:
+        self.config.load()
+    
+    def save(self) -> bool:
+        return self.config.save()
+
+
 class Config:
     """Application configuration manager"""
     
