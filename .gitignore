@@ -1,4 +1,4 @@
-```
+
 # Compiled Python files
 *.pyc
 __pycache__/
@@ -24,4 +24,3 @@ node_modules/
 
 # Original rules preserved
 *.log
-```
